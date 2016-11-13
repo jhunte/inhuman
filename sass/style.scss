@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'Inhuman';
+	src: url('../fonts/InhumanSp.ttf') format('truetype');
+}
+
+/**
+ * Markup free clearing.
+ *
+ * @see http://perishablepress.com/press/2009/12/06/new-clearfix-hack
+ */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* IE6 */
+* html .clearfix {
+  height: 1%;
+}
+/* IE7 */
+*:first-child + html .clearfix {
+  min-height: 1%;
+}
+
+.body {
+	.content-wrapper{
+		background: url('../images/main-bg.png') center top no-repeat;
+		width:1557px;
+		margin-left: auto;
+		margin-right: auto;
+		nav {
+			margin-left: 55px;
+			a.index-link {
+				display: block;
+				width: 440px;
+				height: 125px;
+				float: left;
+				background: url('../images/inhuman-title.png') center no-repeat;
+			}
+			.tabs {
+				margin-top:62px;
+				margin-right:23px;
+				float: right;
+				a {
+					font-family: 'Inhuman', verdana;
+					color: black;
+					text-decoration: none;
+					font-weight: bold;
+					font-size: 45px;
+					padding-top: 10px;
+					text-align: center;
+					background: url('../images/nav-bg.png') center top no-repeat;
+					display: block;
+					width: 160px;
+					height: 60px;
+					float: left;
+				}
+			}
+		}
+		.main {
+			.left {
+				float: left;
+				.last-update {
+					min-width: 188px;
+					padding-top: 40px;
+					font-family: verdana;
+					background: url('../images/last-update.png') left top no-repeat;
+				}
+			}
+			.right {
+				float: right;
+				a.patreon {
+					display: block;
+					width:319px;
+					height:311px;
+					background: url('../images/patreon-clip.png') center no-repeat;
+				}
+			}
+			.center {
+				margin: auto;
+			}
+		}
+	}
+}

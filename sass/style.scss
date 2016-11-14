@@ -24,6 +24,10 @@
   min-height: 1%;
 }
 
+body {
+	background-color: #585858;
+}
+
 .body {
 	.content-wrapper{
 		background: url('../images/main-bg.png') center top no-repeat;
@@ -60,19 +64,55 @@
 			}
 		}
 		.main {
+			padding-top:50px;
 			.left {
 				float: left;
+				margin-left:20px;
+				width:400px;
 				.last-update {
 					min-width: 188px;
 					padding-top: 40px;
 					font-family: verdana;
 					background: url('../images/last-update.png') left top no-repeat;
 				}
+				.social-media {
+					margin-top:125px;
+					a {
+						display: block;
+						margin-bottom:20px;
+						&.tumblr {
+							width:73px;
+							height:72px;
+							background: url('../images/tumblr.png') center no-repeat;
+						}
+						&.twitter {
+							width:73px;
+							height:74px;
+							background: url('../images/twitter.png') center no-repeat;
+						}
+						&.facebook {
+							width:80px;
+							height:81px;
+							background: url('../images/facebook.png') center no-repeat;
+						}
+					}
+				}
+				.high-res {
+					float:right;
+					margin-top:215px;
+					a.high-res-link {
+						text-decoration:none;
+						font-family: 'Inhuman', verdana;
+						color: black;
+						font-size: 30px;
+					}
+				}
 			}
 			.right {
 				float: right;
 				a.patreon {
 					display: block;
+					margin-right:-32px;
 					width:319px;
 					height:311px;
 					background: url('../images/patreon-clip.png') center no-repeat;
@@ -80,6 +120,44 @@
 			}
 			.center {
 				margin: auto;
+				width: 650px;
+				.page {
+					margin: 30px 0;
+					text-align:center;
+				}
+				.top, .bottom {
+					margin-left:0px;
+					height:56px;
+					a {
+						display: block;
+						&.first {
+							width:95px;
+							height:56px;
+							float: left;
+							margin-right:85px;
+							background: url('../images/nav-first.png') center no-repeat;
+						}
+						&.prev {
+							width:75px;
+							height:56px;
+							float:left;
+							background: url('../images/nav-prev.png') center no-repeat;
+						}
+						&.next {
+							width:64px;
+							height:56px;
+							float:right;
+							margin-right:85px;
+							background: url('../images/nav-next.png') center no-repeat;
+						}
+						&.latest {
+							width:101px;
+							height:56px;
+							float:right;
+							background: url('../images/nav-latest.png') center no-repeat;
+						}
+					}
+				}
 			}
 		}
 	}

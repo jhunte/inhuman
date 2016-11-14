@@ -32,6 +32,14 @@
 				<div class="last-update">
 					<p>6/6/66</p>
 				</div>
+				<div class="social-media">
+					<a href="#tumblr" class="tumblr"></a>
+					<a href="#twitter" class="twitter"></a>
+					<a href="#facebook" class="facebook"></a>
+				</div>
+				<div class="high-res">
+					<a href="#highres" class="high-res-link">Hi Res Page</a>
+				</div>
 			</aside>
 			<aside class="right">
 				<a href="#patreon" class="patreon"></a>
@@ -40,8 +48,9 @@
 				<nav class="top">
 					<a href="#first" class="first"></a>
 					<a href="#prev" class="prev"></a>
-					<a href="#next" class="next"></a>
 					<a href="#latest" class="latest"></a>
+					<a href="#next" class="next"></a>
+
 				</nav>
 				<div class="page">
 					<img src="manga633.png" />
@@ -49,8 +58,8 @@
 				<nav class="bottom">
 					<a href="#first" class="first"></a>
 					<a href="#prev" class="prev"></a>
-					<a href="#next" class="next"></a>
 					<a href="#latest" class="latest"></a>
+					<a href="#next" class="next"></a>
 				</nav>
 			</section>
 			

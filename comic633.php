@@ -64,11 +64,14 @@
 			</section>
 			
 		</section>
+		<footer>
+			All writing, characters, webdesign and artwork are (c) H. Carlian 1997-2016 
+			<br>Fan works are (c) their respective authors, creators and artists.
+		</footer>
 	</div>
 </div>
 
-All writing, characters, webdesign and artwork are (c) H. Carlian 1997-2016 
-<br>Fan works are (c) their respective authors, creators and artists.
+
 
 
 </body>

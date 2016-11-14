@@ -37,14 +37,14 @@
 					<a href="#twitter" class="twitter"></a>
 					<a href="#facebook" class="facebook"></a>
 				</div>
-				<div class="high-res">
-					<a href="#highres" class="high-res-link">Hi Res Page</a>
-				</div>
 			</aside>
 			<aside class="right">
 				<a href="#patreon" class="patreon"></a>
 			</aside>
 			<section class="center">
+				<div class="high-res">
+					<a href="#highres" class="high-res-link">Hi Res Page</a>
+				</div>
 				<nav class="top">
 					<a href="#first" class="first"></a>
 					<a href="#prev" class="prev"></a>

@@ -69,7 +69,6 @@ body {
 			.left {
 				float: left;
 				margin-left:20px;
-				width:400px;
 				.last-update {
 					min-width: 188px;
 					padding-top: 40px;
@@ -98,16 +97,7 @@ body {
 						}
 					}
 				}
-				.high-res {
-					float:right;
-					margin-top:215px;
-					a.high-res-link {
-						text-decoration:none;
-						font-family: 'Inhuman', verdana;
-						color: black;
-						font-size: 30px;
-					}
-				}
+				
 			}
 			.right {
 				float: right;
@@ -122,6 +112,15 @@ body {
 			.center {
 				margin: auto;
 				width: 650px;
+				.high-res {
+					text-align:center;
+					a.high-res-link {
+						text-decoration:none;
+						font-family: 'Inhuman', verdana;
+						color: black;
+						font-size: 30px;
+					}
+				}
 				.page {
 					margin: 30px 0;
 					text-align:center;

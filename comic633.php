@@ -1,6 +1,7 @@
 <html>
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=device-width">
 <title>Inhuman [a webcomic] : updates WEEKLY</title>
 <meta name="keywords" content="webcomics comics comic webcomic inhuman hekshanian nikitak soshika soshi lypha kyotoshi solla koji scifi sci fi sci-fi manga hekshano icarus">
 <meta name="description" content="a sci-fi webcomic">

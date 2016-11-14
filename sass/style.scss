@@ -30,7 +30,7 @@ body {
 
 .body {
 	.content-wrapper{
-		background: url('../images/main-bg.png') center top no-repeat;
+		background: url('../images/main-bg.png') center top/100% auto no-repeat;
 		width:1557px;
 		margin-left: auto;
 		margin-right: auto;
@@ -41,7 +41,7 @@ body {
 				width: 440px;
 				height: 125px;
 				float: left;
-				background: url('../images/inhuman-title.png') center no-repeat;
+				background: url('../images/inhuman-title.png') center/100% auto no-repeat;
 			}
 			.tabs {
 				margin-top:62px;
@@ -55,7 +55,7 @@ body {
 					font-size: 45px;
 					padding-top: 10px;
 					text-align: center;
-					background: url('../images/nav-bg.png') center top no-repeat;
+					background: url('../images/nav-bg.png') center/100% auto top no-repeat;
 					display: block;
 					width: 160px;
 					height: 60px;
@@ -73,7 +73,7 @@ body {
 					min-width: 188px;
 					padding-top: 40px;
 					font-family: verdana;
-					background: url('../images/last-update.png') left top no-repeat;
+					background: url('../images/last-update.png') left top/100% auto no-repeat;
 				}
 				.social-media {
 					margin-top:125px;
@@ -83,17 +83,17 @@ body {
 						&.tumblr {
 							width:73px;
 							height:72px;
-							background: url('../images/tumblr.png') center no-repeat;
+							background: url('../images/tumblr.png') center/100% auto no-repeat;
 						}
 						&.twitter {
 							width:73px;
 							height:74px;
-							background: url('../images/twitter.png') center no-repeat;
+							background: url('../images/twitter.png') center/100% auto no-repeat;
 						}
 						&.facebook {
 							width:80px;
 							height:81px;
-							background: url('../images/facebook.png') center no-repeat;
+							background: url('../images/facebook.png') center/100% auto no-repeat;
 						}
 					}
 				}
@@ -106,7 +106,7 @@ body {
 					margin-right:-32px;
 					width:319px;
 					height:311px;
-					background: url('../images/patreon-clip.png') center no-repeat;
+					background: url('../images/patreon-clip.png') center/100% auto no-repeat;
 				}
 			}
 			.center {
@@ -135,26 +135,26 @@ body {
 							height:56px;
 							float: left;
 							margin-right:85px;
-							background: url('../images/nav-first.png') center no-repeat;
+							background: url('../images/nav-first.png') center/100% auto no-repeat;
 						}
 						&.prev {
 							width:75px;
 							height:56px;
 							float:left;
-							background: url('../images/nav-prev.png') center no-repeat;
+							background: url('../images/nav-prev.png') center/100% auto no-repeat;
 						}
 						&.next {
 							width:64px;
 							height:56px;
 							float:right;
 							margin-right:85px;
-							background: url('../images/nav-next.png') center no-repeat;
+							background: url('../images/nav-next.png') center/100% auto no-repeat;
 						}
 						&.latest {
 							width:101px;
 							height:56px;
 							float:right;
-							background: url('../images/nav-latest.png') center no-repeat;
+							background: url('../images/nav-latest.png') center/100% auto no-repeat;
 						}
 					}
 				}

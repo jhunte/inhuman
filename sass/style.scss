@@ -115,6 +115,16 @@ body {
 			.center {
 				margin: auto;
 				width: 650px;
+				.text-content {
+					width:inherit;
+					height:482px;
+					overflow-y:auto;
+					font-family:verdana;
+					margin-bottom:100px;
+				}
+				.text-title {
+					font-family:verdana;
+				}
 				.high-res {
 					text-align:center;
 					a.high-res-link {
@@ -233,6 +243,16 @@ body {
 				}
 				.center {
 					width: 650px;
+					.text-content {
+						width:610px;
+						margin:auto;
+						height:378px;
+						margin-bottom:80px;
+						padding-right:8px;
+					}
+					.text-title {
+						padding: 0 20px;
+					}
 					.high-res {
 						a.high-res-link {
 							font-size: 30px;

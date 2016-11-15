@@ -31,11 +31,11 @@ body {
 .body {
 	.content-wrapper{
 		background: url('../images/main-bg.png') center top/100% auto no-repeat;
-		width:1557px;
+		width:1223px;
 		margin-left: auto;
 		margin-right: auto;
 		nav {
-			margin-left: 55px;
+			margin-left: 45px;
 			a.index-link {
 				display: block;
 				width: 440px;
@@ -55,7 +55,7 @@ body {
 					font-size: 45px;
 					padding-top: 10px;
 					text-align: center;
-					background: url('../images/nav-bg.png') center/100% auto top no-repeat;
+					background: url('../images/nav-bg.png') center top/100% auto no-repeat;
 					display: block;
 					width: 160px;
 					height: 60px;
@@ -103,9 +103,9 @@ body {
 				float: right;
 				a.patreon {
 					display: block;
-					margin-right:-32px;
-					width:319px;
-					height:311px;
+					margin-right:-27px;
+					width:261px;
+					height:255px;
 					background: url('../images/patreon-clip.png') center/100% auto no-repeat;
 				}
 			}

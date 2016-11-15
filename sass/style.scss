@@ -44,21 +44,21 @@ body {
 				background: url('../images/inhuman-title.png') center/85% auto no-repeat;
 			}
 			.tabs {
-				margin-top:62px;
-				margin-right:23px;
+				margin-top:48px;
+				margin-right:18px;
 				float: right;
 				a {
 					font-family: 'Inhuman', verdana;
 					color: black;
 					text-decoration: none;
 					font-weight: bold;
-					font-size: 45px;
-					padding-top: 10px;
+					font-size: 36px;
+					padding-top: 8px;
 					text-align: center;
 					background: url('../images/nav-bg.png') center top/100% auto no-repeat;
 					display: block;
-					width: 160px;
-					height: 60px;
+					width: 131px;
+					height: 42px;
 					float: left;
 					margin-left:10px;
 				}
@@ -70,10 +70,13 @@ body {
 				float: left;
 				margin-left:20px;
 				.last-update {
-					min-width: 188px;
-					padding-top: 40px;
+					min-width: 154px;
+					padding-top: 28px;
 					font-family: verdana;
 					background: url('../images/last-update.png') left top/100% auto no-repeat;
+					p {
+						margin: 0;
+					}
 				}
 				.social-media {
 					margin-top:125px;
@@ -81,18 +84,18 @@ body {
 						display: block;
 						margin-bottom:20px;
 						&.tumblr {
-							width:73px;
-							height:72px;
-							background: url('../images/tumblr.png') center/100% auto no-repeat;
+							width:60px;
+							height:59px;
+							background: url('../images/tumblr.png') 1px -1px/100% auto no-repeat;
 						}
 						&.twitter {
-							width:73px;
-							height:74px;
-							background: url('../images/twitter.png') center/100% auto no-repeat;
+							width:60px;
+							height:60px;
+							background: url('../images/twitter.png') 1px -1px/100% auto no-repeat;
 						}
 						&.facebook {
-							width:80px;
-							height:81px;
+							width:65px;
+							height:66px;
 							background: url('../images/facebook.png') center/100% auto no-repeat;
 						}
 					}

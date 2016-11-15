@@ -171,3 +171,219 @@ body {
 		}
 	}
 }
+
+/* Breakpoint for 1024px devices */
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+	.body {
+		.content-wrapper{
+			width:1004px;
+			nav {
+				margin-left: 35px;
+				a.index-link {
+					width: 278px;
+					height: 80px;
+				}
+				.tabs {
+					margin-top:30px;
+					margin-right:14px;
+					a {
+						font-size: 36px;
+						padding-top: 8px;
+						width: 131px;
+						height: 42px;
+						margin-left:10px;
+					}
+				}
+			}
+			.main {
+				padding-top:50px;
+				.left {
+					margin-left:20px;
+					.last-update {
+						min-width: 154px;
+						padding-top: 28px;
+					}
+					.social-media {
+						margin-top:70px;
+						a {
+							margin-bottom:20px;
+							&.tumblr {
+								width:60px;
+								height:59px;
+							}
+							&.twitter {
+								width:60px;
+								height:60px;
+							}
+							&.facebook {
+								width:65px;
+								height:66px;
+							}
+						}
+					}
+					
+				}
+				.right {
+					a.patreon {
+						margin-right:-20px;
+						width:197px;
+						height:195px;
+					}
+				}
+				.center {
+					width: 650px;
+					.high-res {
+						a.high-res-link {
+							font-size: 30px;
+						}
+					}
+					.page {
+						margin: 10px 0;
+					}
+					.top, .bottom {
+						margin-left:0px;
+						height:46px;
+						a {
+							&.first {
+								width:78px;
+								height:46px;
+								margin-right:69px;
+							}
+							&.prev {
+								width:61px;
+								height:46px;
+							}
+							&.next {
+								width:52px;
+								height:46px;
+								float:right;
+								margin-right:69px;
+							}
+							&.latest {
+								width:83px;
+								height:46px;
+								float:right;
+							}
+						}
+					}
+				}
+			}
+			footer {
+				margin-top: 20px;
+				font-size:12px;
+			}
+		}
+	}
+}
+
+/* Breakpoint for 768px devices, up and down */
+
+@media screen and (max-width:1023px) {
+	.body {
+		.content-wrapper{
+			width:733px;
+			nav {
+				margin-left: 26px;
+				a.index-link {
+					width: 203px;
+					height: 58px;
+				}
+				.tabs {
+					margin-top:22px;
+					margin-right:10px;
+					a {
+						font-size: 26px;
+						padding-top: 6px;
+						width: 98px;
+						height: 31px;
+						margin-left:8px;
+					}
+				}
+			}
+			.main {
+				padding-top:20px;
+				.left {
+					margin-left:20px;
+					.last-update {
+						min-width: 154px;
+						padding-top: 28px;
+						float:left;
+					}
+					.social-media {
+						float:right;
+						margin-top:0px;
+						margin-left:60px;
+						a {
+							margin-bottom:0px;
+							margin-left:19px;
+							float:right;
+							&.tumblr {
+								width:60px;
+								height:59px;
+							}
+							&.twitter {
+								width:60px;
+								height:60px;
+							}
+							&.facebook {
+								width:65px;
+								height:66px;
+							}
+						}
+					}
+					
+				}
+				.right {
+					a.patreon {
+						margin-right:-15px;
+						width:147px;
+						height:145px;
+					}
+				}
+				.center {
+					width: 650px;
+					clear:both;
+					.high-res {
+						a.high-res-link {
+							font-size: 30px;
+						}
+					}
+					.page {
+						margin: 10px 0;
+					}
+					.top, .bottom {
+						margin-left:0px;
+						height:46px;
+						a {
+							&.first {
+								width:78px;
+								height:46px;
+								margin-right:69px;
+							}
+							&.prev {
+								width:61px;
+								height:46px;
+							}
+							&.next {
+								width:52px;
+								height:46px;
+								float:right;
+								margin-right:69px;
+							}
+							&.latest {
+								width:83px;
+								height:46px;
+								float:right;
+							}
+						}
+					}
+				}
+			}
+			footer {
+				margin-top: 20px;
+				font-size:12px;
+			}
+		}
+	}
+}

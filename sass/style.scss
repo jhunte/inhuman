@@ -79,7 +79,7 @@ body {
 					}
 				}
 				.social-media {
-					margin-top:125px;
+					margin-top:70px;
 					a {
 						display: block;
 						margin-bottom:20px;
@@ -134,28 +134,28 @@ body {
 					a {
 						display: block;
 						&.first {
-							width:95px;
-							height:56px;
+							width:78px;
+							height:46px;
 							float: left;
-							margin-right:85px;
+							margin-right:69px;
 							background: url('../images/nav-first.png') center/100% auto no-repeat;
 						}
 						&.prev {
-							width:75px;
-							height:56px;
+							width:61px;
+							height:46px;
 							float:left;
 							background: url('../images/nav-prev.png') center/100% auto no-repeat;
 						}
 						&.next {
-							width:64px;
-							height:56px;
+							width:52px;
+							height:46px;
 							float:right;
-							margin-right:85px;
+							margin-right:69px;
 							background: url('../images/nav-next.png') center/100% auto no-repeat;
 						}
 						&.latest {
-							width:101px;
-							height:56px;
+							width:83px;
+							height:46px;
 							float:right;
 							background: url('../images/nav-latest.png') center/100% auto no-repeat;
 						}

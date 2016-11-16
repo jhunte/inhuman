@@ -97,6 +97,9 @@
 </div>
 
 
+<?php 
 
+$xml = simplexml_load_file("http://not-fun.dreamwidth.org/data/rss") or die ("Error: NOTHING WORKS AAAA");
+echo "<pre>" . print_r($xml, true) . "</pre>";
 
 </body>

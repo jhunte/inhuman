@@ -1,3 +1,10 @@
+<?php 
+
+$xml = simplexml_load_file("http://not-fun.dreamwidth.org/data/rss") or die ("Error: NOTHING WORKS AAAA");
+$feed = $xml->channel->item[0];
+
+?>
+
 <html>
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -54,15 +61,7 @@
 					<div class="worm-down">
 					</div>
 					<div class="notes-content">
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie vehicula faucibus. Quisque eu leo id elit sodales rhoncus sed id massa. Etiam ac sagittis nisi, a sollicitudin magna. Nullam tincidunt elementum enim, non imperdiet nisi pulvinar eu. Vivamus pellentesque turpis nec velit blandit feugiat. Donec non ex id elit ultricies feugiat vel eget quam. Etiam felis quam, varius non ex sed, ullamcorper venenatis erat. Mauris a felis eu velit hendrerit lacinia. Duis semper nulla et metus mattis convallis. Aliquam at massa bibendum, molestie diam sit amet, ultrices tellus. Sed vel convallis tortor, non bibendum mi. Maecenas vitae sapien mauris. Suspendisse potenti.
-					</p>
-					<p>
-					Fusce eu ultricies purus, non mollis nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam auctor sapien non consectetur vestibulum. Suspendisse eget dolor et nibh aliquam tristique vel posuere nunc. Duis vestibulum ultrices luctus. Proin tincidunt felis justo. Sed rhoncus egestas elementum. Nam rutrum arcu scelerisque ante tincidunt, et malesuada nulla bibendum. Praesent vehicula gravida imperdiet. Mauris vitae sem eu dolor laoreet consequat. Integer dignissim elit vulputate, malesuada erat et, tincidunt massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc commodo lectus ac purus sollicitudin venenatis. Aliquam vel sollicitudin arcu. Suspendisse congue, felis nec congue tempus, ex est condimentum turpis, laoreet mollis nulla enim sit amet justo. Morbi imperdiet dui ut convallis egestas.
-					</p>
-					<p>
-					Vestibulum vestibulum, metus eu ullamcorper finibus, ante ex pellentesque magna, in bibendum orci ligula nec tellus. Mauris vulputate ultrices nisi id tincidunt. Vestibulum non lacus ac ante tincidunt malesuada eleifend sit amet arcu. Suspendisse efficitur commodo commodo. Sed faucibus semper odio. Donec ac dictum augue, non efficitur quam. Nam vel enim iaculis, egestas augue non, sodales metus. Vestibulum nec lectus lectus. Phasellus lorem lectus, rhoncus in tincidunt ut, tempor sed orci. Ut odio nibh, feugiat vel feugiat id, porta fermentum mi. Suspendisse ultrices mi semper, blandit mi a, varius dolor. Donec consequat ut tellus in aliquet. In hac habitasse platea dictumst. Nulla in egestas metus.
-					</p>
+					<?php echo $feed; ?>
 					</div>
 				</section>
 			</aside>
@@ -97,11 +96,6 @@
 </div>
 
 
-<?php 
 
-$xml = simplexml_load_file("http://not-fun.dreamwidth.org/data/rss") or die ("Error: NOTHING WORKS AAAA");
-echo "<pre>" . print_r($xml, true) . "</pre>";
-
-?>
 
 </body>

@@ -191,6 +191,9 @@ body {
 						color: #2c87b2;
 						font-family:verdana;
 						font-size:10px;
+						position:relative;
+						top:80px;
+						left:42px;
 						&:link {
 							color: #2c87b2;
 						}
@@ -375,6 +378,10 @@ body {
 								width: 105px;
 							}
 
+						}
+						a.permalink {
+							top:72px;
+							left:25px;
 						}
 					}
 				}

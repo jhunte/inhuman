@@ -187,6 +187,17 @@ body {
 							}
 						}
 					}
+					a.permalink {
+						color: #2c87b2;
+						font-family:verdana;
+						font-size:10px;
+						&:link {
+							color: #2c87b2;
+						}
+						&:visited {
+							color: #336633;
+						}
+					}
 				}
 			}
 			.center {

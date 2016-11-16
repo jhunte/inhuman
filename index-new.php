@@ -63,6 +63,7 @@ $feed = $xml->channel->item[0]->description;
 					<div class="notes-content">
 					<?php echo $feed; ?>
 					</div>
+					<a href="http://not-fun.dreamwidth.org/" class="permalink">blog permalink</a>
 				</section>
 			</aside>
 			<section class="center">

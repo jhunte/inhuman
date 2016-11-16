@@ -29,6 +29,11 @@ body {
 }
 
 .body {
+	header {
+		width:1008px;
+		text-align:center;
+		margin:auto;
+	}
 	.content-wrapper{
 		background: url('../images/main-bg.png') center top/100% auto no-repeat;
 		width:1223px;

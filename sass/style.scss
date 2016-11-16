@@ -124,18 +124,20 @@ body {
 				float: right;
 				a.patreon {
 					display: block;
-					margin-right:-27px;
+					right:-27px;
+					position:relative;
+					z-index:1;
 					width:261px;
 					height:255px;
 					background: url('../images/patreon-clip.png') center/100% auto no-repeat;
 				}
 				.project-notes {
 					display: block;
-					margin-right:-27px;
 					width:261px;
 					height:328px;
 					background: url('../images/project-notes.png') center/100% auto no-repeat;
 					position: relative;
+					top:-60px;
 					.worm-up {
 						width:28px;
 						height:50px;
@@ -290,9 +292,35 @@ body {
 				}
 				.right {
 					a.patreon {
-						margin-right:-20px;
+						right:-20px;
 						width:197px;
 						height:195px;
+					}
+					.project-notes {
+						display: block;
+						width:197px;
+						height:276px;
+						top:-60px;
+						.worm-up {
+							width:28px;
+							height:50px;
+							right:24px;
+							top:56px;
+						}
+						.worm-down {
+							width:32px;
+							height:48px;
+							bottom:55px;
+							right:25px;
+						}
+						.notes-content {
+							padding-right: 8px;
+							width:114px;
+							height: 136px;
+							left:42px;
+							top:72px;
+
+						}
 					}
 				}
 				.center {

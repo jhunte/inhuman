@@ -1,7 +1,7 @@
 <?php 
 
 $xml = simplexml_load_file("http://not-fun.dreamwidth.org/data/rss") or die ("Error: NOTHING WORKS AAAA");
-$feed = $xml->rss->channel->item[0];
+$feed = $xml->channel->item[0]->description;
 
 ?>
 
@@ -94,8 +94,5 @@ $feed = $xml->rss->channel->item[0];
 		</footer>
 	</div>
 </div>
-
-<?php print_r($xml); ?>
-
 
 </body>

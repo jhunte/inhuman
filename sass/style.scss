@@ -270,6 +270,14 @@ body {
 						min-width: 154px;
 						padding-top: 28px;
 					}
+					.recent-pages {
+						width: 154px;
+						padding-top: 28px;
+						background: url('../images/recent-pages.png') center top/90% auto no-repeat;
+						font-size:14px;
+						margin-top:20px;
+						margin-bottom:-40px;
+					}
 					.social-media {
 						margin-top:70px;
 						a {
@@ -288,20 +296,25 @@ body {
 							}
 						}
 					}
+					.fun-space {
+						width:154px;
+						height:200px;
+						margin-top:20px;
+					}
 					
 				}
 				.right {
 					width:177px;
 					a.patreon {
-						right:-20px;
-						width:197px;
-						height:195px;
+						right:-30px;
+						width:161px;
+						height:160px;
 					}
 					.project-notes {
 						display: block;
 						width:186px;
 						height:276px;
-						top:-66px;
+						top:-67px;
 						right:-5px;
 						.worm-up {
 							width:21px;

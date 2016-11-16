@@ -70,12 +70,25 @@ body {
 				float: left;
 				margin-left:20px;
 				.last-update {
-					min-width: 154px;
+					width: 154px;
 					padding-top: 28px;
 					font-family: verdana;
 					background: url('../images/last-update.png') left top/100% auto no-repeat;
 					p {
 						margin: 0;
+					}
+				}
+				.recent-pages {
+					width: 200px;
+					padding-top: 28px;
+					background: url('../images/recent-pages.png') center top/70% auto no-repeat;
+					text-align:center;
+					font-family:verdana;
+					font-size:16px;
+					margin-top:20px;
+					margin-bottom:-40px;
+					a {
+						text-decoration: none;
 					}
 				}
 				.social-media {
@@ -100,6 +113,11 @@ body {
 						}
 					}
 				}
+				.fun-space {
+					width:250px;
+					height:200px;
+					margin-top:20px;
+				}
 				
 			}
 			.right {
@@ -110,6 +128,42 @@ body {
 					width:261px;
 					height:255px;
 					background: url('../images/patreon-clip.png') center/100% auto no-repeat;
+				}
+				.project-notes {
+					display: block;
+					margin-right:-27px;
+					width:261px;
+					height:328px;
+					background: url('../images/project-notes.png') center/100% auto no-repeat;
+					position: relative;
+					.worm-up {
+						width:28px;
+						height:50px;
+						background: url('../images/worm-up.png') center/100% auto no-repeat;
+						position: absolute;
+						right:24px;
+						top:56px;
+						display:none;
+					}
+					.worm-down {
+						width:32px;
+						height:48px;
+						background: url('../images/worm-down.png') center/100% auto no-repeat;
+						position: absolute;
+						bottom:55px;
+						right:25px;
+						display:none;
+					}
+					.notes-content {
+						position: relative;
+						overflow-y: auto;
+						padding-right: 8px;
+						width:152px;
+						height: 182px;
+						left:42px;
+						top:72px;
+
+					}
 				}
 			}
 			.center {

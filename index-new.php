@@ -1,8 +1,5 @@
 <?php 
-
-$xml = simplexml_load_file("http://not-fun.dreamwidth.org/data/rss") or die ("Error: NOTHING WORKS AAAA");
-$feed = $xml->channel->item[0]->description;
-
+include 'includes.php';
 ?>
 
 <html>
@@ -40,7 +37,7 @@ $feed = $xml->channel->item[0]->description;
 		<section class="main">
 			<aside class="left">
 				<div class="last-update">
-					<p>6/6/66</p>
+					<p><?php echo $last_updated; ?></p>
 				</div>
 				<div class="recent-pages">
 					<a href="comic630.php">630</a> . <a href="comic631.php">631</a> . <a href="comic632.php">632</a> . <span>633</span>

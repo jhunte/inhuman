@@ -1,3 +1,7 @@
+<?php 
+include 'includes.php';
+?>
+
 <html>
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -31,7 +35,7 @@
 		<section class="main">
 			<aside class="left">
 				<div class="last-update">
-					<p>6/6/66</p>
+					<p><?php echo $last_updated; ?></p>
 				</div>
 				<div class="social-media">
 					<a href="#tumblr" class="tumblr"></a>

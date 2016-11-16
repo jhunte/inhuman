@@ -73,8 +73,8 @@
 				<nav class="top">
 					<a href="#first" class="first"></a>
 					<a href="#prev" class="prev"></a>
-					<a href="#latest" class="latest"></a>
-					<a href="#next" class="next"></a>
+					<a class="latest index"></a>
+					<a class="next index"></a>
 
 				</nav>
 				<div class="page">
@@ -83,8 +83,8 @@
 				<nav class="bottom">
 					<a href="#first" class="first"></a>
 					<a href="#prev" class="prev"></a>
-					<a href="#latest" class="latest"></a>
-					<a href="#next" class="next"></a>
+					<a class="latest index"></a>
+					<a class="next index"></a>
 				</nav>
 			</section>
 			

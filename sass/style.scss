@@ -225,6 +225,9 @@ body {
 							float:right;
 							background: url('../images/nav-latest.png') center/100% auto no-repeat;
 						}
+						&.index {
+							opacity: 0.2;
+						}
 					}
 				}
 			}

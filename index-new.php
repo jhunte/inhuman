@@ -95,7 +95,7 @@ $feed = $xml->rss->channel->item[0];
 	</div>
 </div>
 
-
+<?php print_r($xml); ?>
 
 
 </body>

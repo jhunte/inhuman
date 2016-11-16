@@ -291,6 +291,7 @@ body {
 					
 				}
 				.right {
+					width:177px;
 					a.patreon {
 						right:-20px;
 						width:197px;
@@ -298,27 +299,29 @@ body {
 					}
 					.project-notes {
 						display: block;
-						width:197px;
+						width:186px;
 						height:276px;
-						top:-60px;
+						top:-66px;
+						right:-5px;
 						.worm-up {
-							width:28px;
-							height:50px;
+							width:21px;
+							height:37px;
 							right:24px;
 							top:56px;
 						}
 						.worm-down {
-							width:32px;
-							height:48px;
+							width:24px;
+							height:36px;
 							bottom:55px;
 							right:25px;
 						}
 						.notes-content {
 							padding-right: 8px;
-							width:114px;
+							width:110px;
 							height: 136px;
-							left:42px;
+							left:24px;
 							top:72px;
+							font-size:14px;
 
 						}
 					}

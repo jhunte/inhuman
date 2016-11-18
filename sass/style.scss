@@ -28,6 +28,16 @@ body {
 	background-color: #585858;
 }
 
+a {
+	color: #2c87b2;
+	&:link {
+		color: #2c87b2;
+	}
+	&:visited {
+		color: #336633;
+	}
+}
+
 .body {
 	header {
 		width:1008px;
